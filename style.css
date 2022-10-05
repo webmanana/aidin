@@ -142,7 +142,7 @@ img {
   background: #ffffff;
 }
 .section {
-  padding-top: 100px;
+  padding-top: 140px;
   padding-bottom: 160px;
 }
 .flex-block {
@@ -204,7 +204,7 @@ img {
   margin: 0 auto;
 }
 .title-bold {
-  font-size: 52px;
+  font-size: 42px;
   line-height: 1.23;
 }
 .title-thin {
@@ -216,9 +216,6 @@ img {
   font-weight: 300;
 }
 .section-title {
-  text-align: center;
-  max-width: 800px;
-  margin: 0 auto;
   padding-bottom: 90px;
 }
 .header-section {
@@ -254,6 +251,105 @@ img {
   padding: 20px 60px;
   display: inline-block;
   cursor: pointer;
+}
+.about-title {
+  font-size: 16px;
+  line-height: 1.35;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 25px;
+}
+.about-text {
+  font-size: 30px;
+  line-height: 1.45;
+  color: #000;
+  font-weight: 300;
+}
+.desc-block {
+  width: 800px;
+  padding-top: 60px;
+}
+.advan__img-svg {
+  width: 80px;
+  height: 80px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.advan__item {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  gap: 40px;
+}
+.advan__text {
+  gap: 40px;
+}
+.advan__desc {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.55;
+  font-weight: 300;
+}
+.advan-section {
+  background: #1a1a1a;
+}
+.advan__block {
+  gap: 40px;
+}
+.advan__text {
+  width: 50%;
+  padding-top: 20px;
+}
+.advan__preview {
+  width: 50%;
+}
+.advan-title {
+  color: #fff;
+  font-size: 42px;
+  line-height: 1.23;
+}
+.stage-wrap {
+  gap: 40px;
+}
+.stage__item {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 33.3333%;
+  gap: 20px;
+}
+.stage__number {
+  color: #000;
+  border-radius: 50%;
+  background: #ffd014;
+  width: 35px;
+  height: 35px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  flex: none;
+}
+.stage__content h3 {
+  font-size: 24px;
+  line-height: 1.35;
+  font-weight: 600;
+}
+.stage__content span {
+  font-size: 15px;
+  line-height: 1.55;
+  color: #000;
+  font-weight: 300;
 }
 .footer {
   background-color: #000;
