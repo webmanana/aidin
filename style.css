@@ -351,10 +351,39 @@ img {
   color: #000;
   font-weight: 300;
 }
+.contact__block {
+  gap: 40px;
+}
+.contact__item {
+  width: 50%;
+}
+.contact__text p {
+  font-size: 30px;
+  line-height: 1.45;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 5px;
+}
+.contact__text p a {
+  color: #ff8562;
+}
+.contact-form input[type=text] {
+  color: #000000;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 2px solid #999999;
+  background-color: transparent;
+  color: #000;
+  outline: none;
+  height: 60px;
+  font-size: 16px;
+  line-height: 1.33;
+  width: 100%;
+  margin-bottom: 20px;
+}
 .footer {
-  background-color: #000;
-  color: #fff;
-  text-align: center;
+
 }
 @media (max-width: 1300px) {
   .container {
