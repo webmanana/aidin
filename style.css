@@ -176,6 +176,7 @@ img {
   font-size: 14px;
 }
 .title-section {
+  max-width: 100%;
   width: 800px;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -417,7 +418,27 @@ img {
 }
 @media (max-width: 1024px) {
   .container {
-    max-width: 100%;
+    max-width: 600px;
+  }
+  .section-title {
+    padding-bottom: 45px;
+  }
+  .advan__text, .advan__preview, .contact__item {
+    width: 100%;
+  }
+  .advan__text {
+    order: 2;
+  }
+  .advan__preview {
+    order: 1;
+  }
+  .stage-wrap, .contact__block, .advan__block {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .stage__item {
+    width: 100%;
   }
 }
 @media (max-width: 640px) {
@@ -425,6 +446,20 @@ img {
     font-size: 30px;
   }
   .title-bold {
-    font-size: 32px;
+    font-size: 30px;
+  }
+  .about-text {
+    font-size: 22px;
+  }
+  .advan-title {
+    font-size: 30px;
+  }
+  .contact__text p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .title-desc {
+    font-size: 18px;
+    margin-top: 20px;
   }
 }
